@@ -1,0 +1,15 @@
+D:\Development\csprojects\dataEntry\obj\Debug\net6.0\dataEntry.csproj.AssemblyReference.cache
+D:\Development\csprojects\dataEntry\obj\Debug\net6.0\dataEntry.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\csprojects\dataEntry\obj\Debug\net6.0\dataEntry.AssemblyInfoInputs.cache
+D:\Development\csprojects\dataEntry\obj\Debug\net6.0\dataEntry.AssemblyInfo.cs
+D:\Development\csprojects\dataEntry\obj\Debug\net6.0\dataEntry.csproj.CoreCompileInputs.cache
+D:\Development\csprojects\dataEntry\bin\Debug\net6.0\dataEntry.exe
+D:\Development\csprojects\dataEntry\bin\Debug\net6.0\dataEntry.deps.json
+D:\Development\csprojects\dataEntry\bin\Debug\net6.0\dataEntry.runtimeconfig.json
+D:\Development\csprojects\dataEntry\bin\Debug\net6.0\dataEntry.dll
+D:\Development\csprojects\dataEntry\bin\Debug\net6.0\dataEntry.pdb
+D:\Development\csprojects\dataEntry\obj\Debug\net6.0\dataEntry.dll
+D:\Development\csprojects\dataEntry\obj\Debug\net6.0\refint\dataEntry.dll
+D:\Development\csprojects\dataEntry\obj\Debug\net6.0\dataEntry.pdb
+D:\Development\csprojects\dataEntry\obj\Debug\net6.0\dataEntry.genruntimeconfig.cache
+D:\Development\csprojects\dataEntry\obj\Debug\net6.0\ref\dataEntry.dll
