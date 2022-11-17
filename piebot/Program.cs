@@ -24,7 +24,7 @@ public class Program
         _client.SlashCommandExecuted += SlashCommandHandler;
 
         //This is usually not a safe way.
-        var token = "MTA0MTE1OTg1NjQ2MTE5MzI5Ng.GlCZMG.U1D5rRc2_qeKyJTjQqBskGQVCb8Fn86ITsddV0";
+        var token = "";
 
         await _client.LoginAsync(TokenType.Bot, token);
         await _client.StartAsync(); //Start the bot
