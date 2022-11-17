@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using Discord;
 using Discord.Net;
-using Discord.API;
 using Discord.WebSocket;
 using System.Text.Json;
-using System.Text;
-using System.Formats;
+using System.IO;
 
 public class Program
 {
+
+    private string getToken()
+    {
+        return File.ReadAllText(@"./token.txt") ?? "n/a";
+    }
     public static Task Main(string[] args) => new Program().MainAsync();
 
     private DiscordSocketClient? _client;
@@ -24,7 +27,7 @@ public class Program
         _client.SlashCommandExecuted += SlashCommandHandler;
 
         //This is usually not a safe way.
-        var token = "";
+        var token = getToken();
 
         await _client.LoginAsync(TokenType.Bot, token);
         await _client.StartAsync(); //Start the bot
