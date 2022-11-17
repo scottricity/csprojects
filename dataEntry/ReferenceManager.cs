@@ -12,6 +12,6 @@ public class ReferenceManager
     public string GenerateID()
     {
         ReferenceID id = new ReferenceID {snowflake = 2, snowflakeRange = 533};
-        return id;
+        return id.ToString() ?? "null";
     }
 }
